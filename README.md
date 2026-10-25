@@ -14,8 +14,8 @@ The app tries to look for these files automatically (it *should* be able to find
 If everything works correctly, upon opening the app you should be greeted with your rating list. You can now type in various commands into the console to scroll through the rating list, switch modes, etc.  
 You enter a command by typing that command then pressing Enter. The app should print the controls into the console, but here they are here:
 
-`b<number>`: Shows the *top <number>* entries of your rating list. *The default view can be obtained by entering `b30`.* This command resets both how much you've scrolled, and how large one page is.  
-`#<number>`: Sets your current scroll position to the #<number> spot.  
+`b<number>`: Shows the *top \<number>* entries of your rating list. *The default view can be obtained by entering `b30`.* This command resets both how much you've scrolled, and how large one page is.  
+`#<number>`: Sets your current scroll position to the #\<number> spot.  
 `p<number>`: Changes the size of one page, or how many entries are displayed at the same time. This keeps your position at the same spot.  
 `w`: Scrolls up by the size of one page. If scrolling up would cause you to scroll past your best play, it caps your scroll position to #1.  
 `e`: Scrolls down by the size of one page. If you are currently viewing entries 1–30, entering `e` will then show entries 31–60.  
