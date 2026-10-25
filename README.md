@@ -6,6 +6,14 @@ Additionally, this app also contains a mode that lets you see your progress on y
 
 The code in this program is currently Very Bad, but I wrote all of it myself and it works ~~(on my machine, at least)~~ so I don't care that much.
 
+## Building it so that you can actually use it
+
+*..I already have this program built and running so I might be forgetting something here but hopefully this is right?*  
+First, you need to download this program. You can do this with `git clone` if you know what that means, or use whatever other method you want.  
+Next, you need the .NET SDK. To install that, [go here](https://dotnet.microsoft.com/en-us/download). There's a decent chance you already have this.  
+Once you have .NET, open a terminal window, navigate to the folder that contains the `ExtendedRatingList.csproj` file, and run `dotnet run`.  
+(Once you've done this once, you can also go through the `bin/Debug/net10.0` folders and run the program in there as well.)
+
 ## Usage
 
 For the app to properly display your plays, it needs to read two files from the game: __highscore_table__ and __song_information.bin__. `highscore_table` is in your *save file*, while `song_information.bin` is in the *game's files* (located next to `VIVIDSTASIS.exe`).  
